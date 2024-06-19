@@ -15,17 +15,30 @@ public class Pattern {
     //   // **
     //   // *
 
-    //Question 2
-    // *
-    // **
-    // ***
-    // ****
-    int n = 8;
-    for(int i=0; i<=n; i++){
-      for(int j=0; j<=i; j++){
-         System.out.print("*");
-      }
-      System.out.println();
+    // //Question 2
+    // // *
+    // // **
+    // // ***
+    // // ****
+    // int n = 8;
+    // for(int i=0; i<=n; i++){
+    //   for(int j=0; j<=i; j++){
+    //      System.out.print("*");
+    //   }
+    //   System.out.println();
+    // }
+
+    // Questiong characters pattern
+
+    char ch = 'A';
+    int n = 4;
+    for(int i = 0; i<=n; i++){
+        for(int j=0; j<=i; j++){
+            System.out.print(ch);
+            ch++;
+        }
+        System.out.println();
     }
-    }
+}
+
 }
