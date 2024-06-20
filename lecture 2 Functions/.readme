@@ -1,0 +1,19 @@
+WHAT HAPPENS IN MEMORY
+function stores in the form of stacks in memory and along with it it contains its variable in it
+and when the return statement is executed the function clears from the call stack
+
+
+
+now call by reference and call by value 
+like in swappign of variables is swap by value
+
+in our swap example where we swap values in function 
+remember the swap function print wil show the swapped 
+values as in that function the copies of a and b is 
+provided like when we pass an argument to a function 
+those arguments are actually the copy of arguments 
+premsent in main function so the swapped values will 
+be only print in the function in which we have swapped
+the values not in the main functionthis is what we call 
+pass by value java k ander sare functions me call by value pass hota hai
+
